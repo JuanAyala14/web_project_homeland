@@ -1,0 +1,30 @@
+.lead {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.lead__title {
+  max-width: 720px;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 1;
+  text-align: center;
+}
+
+.lead__subtitle {
+  max-width: 720px;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.lead__image {
+  width: 100%;
+  background-image: url(../images/view.png);
+  padding-bottom: 60%;
+  background-size: cover;
+  background-position: center;
+}

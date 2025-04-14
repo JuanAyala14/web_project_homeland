@@ -1,95 +1,10 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts.css);
-.page {
-  max-width: 1280px;
-  font-family: "Inter", Arial, sans-serif;
-  background-color: #2a2c2f;
-  color: white;
-  font-family: "Inter", sans-serif;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
+@import url(../blocks/page.css);
+@import url(../blocks/lead.css);
+@import url(../blocks/intro.css);
+@import url(../blocks/footer.css);
 
-.page__container {
-  width: 80%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-.logo {
-  display: block;
-  margin: 32px auto;
-}
-
-.lead {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-}
-.lead__title {
-  max-width: 720px;
-  font-weight: 900;
-  font-size: 96px;
-  line-height: 1;
-  text-align: center;
-}
-
-.lead__subtitle {
-  max-width: 720px;
-  font-weight: 400;
-  font-size: 30px;
-  line-height: 1.2;
-  text-align: center;
-}
-
-.lead__image {
-  width: 100%;
-  background-image: url(../images/view.png);
-  padding-bottom: 60%;
-  background-size: cover;
-  background-position: center;
-}
-
-.intro {
-  max-width: 830px;
-  align-self: flex-start;
-}
-
-.intro__title {
-  width: 100%;
-  font-weight: 900;
-  font-size: 54px;
-  line-height: 1.2;
-  text-align: left;
-}
-
-.intro__quote {
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 34px;
-}
-.intro__quote-name {
-  text-align: right;
-  font-size: 24px;
-  line-height: 34px;
-}
-.intro__description {
-  font-weight: 400;
-  line-height: 1.63;
-}
-.footer__copyright {
-  margin-top: 90px;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0%;
-  text-align: right;
-}
 @media screen and (max-width: 768px) {
   .page__container {
     width: 100%;
