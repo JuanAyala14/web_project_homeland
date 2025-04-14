@@ -8,16 +8,16 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding: 0 12%;
+}
+@media screen and (max-width: 768px) {
+  .page {
+    padding: 0 4%;
+  }
 }
 
-.page__container {
-  width: 80%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-.logo {
-  display: block;
-  margin: 32px auto;
+@media screen and (max-width: 320px) {
+  .page {
+    padding: 0 4%;
+  }
 }
