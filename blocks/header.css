@@ -1,11 +1,11 @@
-.lead {
+.header {
   width: 100%;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
 }
-.lead__title {
+.header__title {
   max-width: 720px;
   font-weight: 900;
   font-size: 96px;
@@ -13,7 +13,7 @@
   text-align: center;
 }
 
-.lead__subtitle {
+.header__subtitle {
   max-width: 720px;
   font-weight: 400;
   font-size: 30px;
@@ -21,7 +21,7 @@
   text-align: center;
 }
 
-.lead__image {
+.header__image {
   width: 100%;
   background-image: url(../images/view.png);
   padding-bottom: 60%;
