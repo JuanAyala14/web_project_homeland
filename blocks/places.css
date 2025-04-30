@@ -59,19 +59,19 @@
   background: linear-gradient(90deg, #0278fe40 0%, #003a7b40 99.98%);
 }
 
-.places__list_heading {
+.places__list-heading {
   font-weight: 400;
   font-size: 12px;
   line-height: 100%;
   color: #aaaaaa;
 }
 
-.places__list_paragraph {
+.places__paragraph {
   font-weight: 400;
   font-size: 18px;
   line-height: 163%;
 }
-.places__list_paragraph-author {
+.places__paragraph_author {
   margin: 0;
 }
 
@@ -97,10 +97,10 @@
     width: 85%;
     font-size: 18px;
   }
-  .places__list_heading {
+  .places__list-heading {
     font-size: 12px;
   }
-  .places__list_paragraph {
+  .places__paragraph {
     font-size: 12px;
   }
 }
@@ -140,15 +140,15 @@
     grid-row: 4/5;
     grid-column: 1;
   }
-  .places__list_paragraph {
+  .places__paragraph {
     font-size: 12px;
   }
-  .places__list_heading {
+  .places__list-heading {
     font-size: 12px;
     grid-row: 2/3;
     grid-column: 1;
   }
-  .places__list_paragraph-author {
+  .places__paragraph_author {
     grid-row: 2/3;
     grid-column: 1;
   }
