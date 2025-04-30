@@ -32,6 +32,7 @@
   padding-bottom: 60%;
   background-size: cover;
   background-position: center;
+  box-shadow: 10px 10px 25px 0px #00000040;
 }
 @media screen and (max-width: 768px) {
   .header__title {
