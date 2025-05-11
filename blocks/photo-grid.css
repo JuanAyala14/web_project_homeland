@@ -32,13 +32,15 @@
 
 @media screen and (max-width: 320px) {
   .photo-grid {
-    display: flex;
+    display: inline-block;
     margin: 12% 0 10%;
   }
   .photo-grid__container {
-    min-height: 1810px;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(8, 1fr);
-    gap: 1%;
+    gap: 20px;
+  }
+  .photo-grid__image {
+    height: 200px;
   }
 }

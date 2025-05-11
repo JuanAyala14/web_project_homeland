@@ -1,6 +1,6 @@
-# Proyecto 5:Galeria de Arte
+# Proyecto 6:Galeria de Arte
 
-La página web de la Galeria de Arte Triple Ten es el quinto proyecto en el programa de Desarrollo web de TripleTen. Fue creado utilizando HTML y CSS, con base en un brief de diseño sacado de Figma para dar como resultado un sitio web responsivo.
+La página web de la Galeria de Arte Triple Ten es el quinto proyecto en el programa de Desarrollo web de TripleTen. Fue creado utilizando HTML y CSS, con base en un brief de diseño sacado de Figma para dar como resultado un sitio web responsivo, asi mismo se utilizo tecnicas de sombreado y degradado para dar estilo a las imagenes y botones de la pagina.
 
 ## Características del proyecto
 
@@ -9,6 +9,7 @@ La página web de la Galeria de Arte Triple Ten es el quinto proyecto en el prog
 - CSS responsivo
 - Media Queries
 - Figma
+- sombreados y degradados
 
 ## Enlace del proyecto
 
